@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+.wrapper{
+    background-color: rgba(0,0,0,0.5);
+    width: 50%;
+    margin: 0 auto;
+    padding:20px;
+}
