@@ -11,6 +11,8 @@ h1 {
 .profile_card{
     width: 25%;
     color: #F1F5F9; /* Soft off-white */
+    margin: 0 auto;
+    padding:20px;
 }
 .profile_card td{
     background-color: #042778;
@@ -33,4 +35,19 @@ h1 {
 .wrapper p, .wrapper h2, .wrapper h1, .wrapper h3, .wrapper li{
     color: #F1F5F9; /* Soft off-white */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.education_table{
+    width: 50%;
+    margin: 0 auto;
+    padding:20px;
+}
+.education_table table{
+    border: 2px solid #031ac2;
+    border-collapse: collapse;
+}
+.education_table th, .education_table td{
+    border: 2px dashed #031ac2;
+    padding: 10px;
+    text-align: left;
+    color: #F1F5F9;
 }
