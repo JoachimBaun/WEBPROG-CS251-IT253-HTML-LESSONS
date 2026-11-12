@@ -1,8 +1,8 @@
 body {
     background-image: url("../images/ph.jpg");
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
     color: navy;
@@ -25,8 +25,12 @@ h1 {
     color: #F1F5F9; /* Soft off-white */
 }
 .wrapper{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8); /* Semi-transparent black */
     width: 50%;
     margin: 0 auto;
     padding:20px;
+}
+.wrapper p, .wrapper h2, .wrapper h1, .wrapper h3, .wrapper li{
+    color: #F1F5F9; /* Soft off-white */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
