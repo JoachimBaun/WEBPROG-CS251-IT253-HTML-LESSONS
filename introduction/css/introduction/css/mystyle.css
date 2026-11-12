@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/ph.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top_nav_bar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #034B8C;
+  justify-content: center;
+  gap: 12px;
+  border-bottom: 2px dashed #10bcdf;
+}
+
+.top_nav_bar div {
+  background-color: #6600ff;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 21px;
+  color: #F1F5F9; /* Soft off-white */
+  border-radius: 12px; /* Rounded corners */
+  border: 2px solid #8772d4; /* Light purple border */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the whole row on the screen */
+    gap: 20px; /* Space between the cards */
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;  
+}
+.profile_card{
+    width: 25%;
+    color: #F1F5F9; /* Soft off-white */
+    padding:20px;
+}
+.profile_card td{
+    background-color: #042778;
+    color: #F1F5F9; /* Soft off-white */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#profile_card_picture{
+    background-color:#5D3FD3;
+}
+.profile_card th{
+    background-color: #042778;
+    color: #F1F5F9; /* Soft off-white */
+}
+.wrapper{
+    background-color: rgba(0,0,0,0.8); /* Semi-transparent black */
+    width: 50%;
+    padding:20px;
+}
+.wrapper p, .wrapper h2, .wrapper h1, .wrapper h3, .wrapper li{
+    color: #F1F5F9; /* Soft off-white */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.education_table{
+    width: 50%;
+    margin: 0 auto;
+    padding:20px;
+}
+.education_table table{
+    border: 2px solid #031ac2;
+    border-collapse: collapse;
+}
+.education_table th, .education_table td{
+    border: 2px dashed #031ac2;
+    padding: 10px;
+    text-align: left;
+    color: #F1F5F9;
+}
