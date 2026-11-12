@@ -1,18 +1,32 @@
 body {
-    background-color: lightblue;
+    background-image: url("../images/ph.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h1 {
     color: navy;
     margin-left: 20px;
+}
+.profile_card{
+    width: 25%;
+    color: #F1F5F9; /* Soft off-white */
+}
+.profile_card td{
+    background-color: #042778;
+    color: #F1F5F9; /* Soft off-white */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#profile_card_picture{
+    background-color:#5D3FD3;
+}
+.profile_card th{
+    background-color: #042778;
+    color: #F1F5F9; /* Soft off-white */
 }
 .wrapper{
     background-color: rgba(0,0,0,0.5);
     width: 50%;
     margin: 0 auto;
     padding:20px;
-}
-.section{
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    color: #333333;
 }
