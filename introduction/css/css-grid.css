@@ -26,6 +26,7 @@
 
 .test_grid_class{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three 1 fraction columns */
     grid-template-rows: 1fr 1fr 1fr; /* Three 1 fraction rows */
     gap: 1em;
 }
