@@ -1,13 +1,40 @@
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
+  grid-template-columns: 180px minmax(0,1fr) 320px;
+  gap: 20px;
   padding: 10px;
+  align-items: start;
 }
-.container div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
+.top_nav_bar {
+  grid-column: 1 / -1;
+  color: #F1F5F9;
+}
+.table_of_contents{
+    grid-column: 1;
+}
+.content_actual {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.profile_card {
+  grid-column: 3;
+  width: 100%;
+}
+
+.test_grid_class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three 1 fraction columns */
+    grid-template-rows: 1fr 1fr 1fr; /* Three 1 fraction rows */
+    gap: 1em;
+}
+.test_grid_row{
+    padding: 2em;
+    background-color: violet;
+    color:white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 2rem;
 }
